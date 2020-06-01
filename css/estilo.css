@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body{
+    margin: 0;
+    padding:0;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+}
+.logo{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.frase1{
+    font-family: "Calibri Light", monospace,sans-serif;
+    color: #4c4c4c;
+    font-size: 3em;
+    text-align: center;
+}
+.titulo p{
+    font-family: sans-serif;
+    color: #9f9f9f;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 8px;
+}
+.caixa{
+    background-color: #f7f7f7;
+    text-align: center;
+    margin: auto;
+    height: 33.5vh;
+    width: 40vh;
+    display: block;
+    padding-top: 30px;
+    border-radius: 2px;
+    box-shadow: 0px 2.5px 4px 0.5px black;
+}
+
+form{
+    margin: auto;
+    width: 230px;
+    margin-top: 25px;
+}
+input{
+    width: 230px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #4a89f5;
+    font-family: Arial;
+    font-size: 1em;
+    text-indent: 5px;
+
+}
+button{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 230px;
+    color: white;
+    background-color: #4a89f5;
+    height: 35px;
+    margin-top: 5px;
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 0.9em;
+    font-family: 'Noto Sans', sans-serif;
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+}
+button:hover{
+    box-shadow: 0px 0px 2px 1px #4a89f5;
+}
+a{
+    margin-top: 5px;
+    text-decoration: none;
+    color: #4a89f5;
+    font-family: sans-serif;
+    font-size: 0.88em;
+    float: right;
+}
+footer{
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+footer a{
+    float: none;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    font-family: sans-serif;
+}
